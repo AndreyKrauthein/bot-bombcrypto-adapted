@@ -525,7 +525,7 @@ def main():
 
         time.sleep(1)
 
-        if cont / 30 == 0:
+        if cont % 30 == 0:
           pyautogui.press('f5')
 
         cont += 1
